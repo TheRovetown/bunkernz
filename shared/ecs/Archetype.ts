@@ -1,3 +1,4 @@
+import { Component } from ".";
 
 /**
  * An archetype is a unique combination of component types.
@@ -5,5 +6,5 @@
  */
 export class Archetype {
 
-
+    public chunk: any[] = [];
 }
